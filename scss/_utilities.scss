@@ -1,0 +1,38 @@
+$background-color: #fbf4e9;
+$light-color: #fbf4e9;
+$dark-green: #489c70;
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: $dark-green;
+}
+
+.page-title {
+	font-size: 3rem;
+	font-weight: bold;
+	border-bottom: $dark-green 3px solid;
+	max-width: none;
+}
+
+.bg {
+	&-light {
+		background: $light-color;
+		color: $dark-green;
+	}
+
+	&-dark {
+		background: $dark-green;
+		color: $light-color;
+	}
+}
