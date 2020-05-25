@@ -36,3 +36,10 @@ a {
 		color: $light-color;
 	}
 }
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}

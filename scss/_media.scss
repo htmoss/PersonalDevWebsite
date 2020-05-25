@@ -1,0 +1,30 @@
+@media (max-width: 568px) {
+	header {
+		position: relative;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	#main-nav {
+		flex-direction: column;
+		justify-content: center;
+		#logo-and-title * {
+			align-items: center;
+			text-align: center;
+		}
+	}
+
+	#skills {
+		iframe {
+			width: 400px;
+		}
+	}
+
+	#main-footer {
+		#contact-links {
+			flex-direction: column;
+		}
+	}
+}

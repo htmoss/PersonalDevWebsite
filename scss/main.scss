@@ -12,9 +12,7 @@ body {
 
 // Nav and footer flex rows
 #main-nav,
-#logo-and-title,
-#main-footer ul,
-#main-footer ul li a {
+#logo-and-title {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -30,12 +28,24 @@ header {
 	#main-nav {
 		padding: 0 2rem;
 		#logo-and-title {
+			justify-content: left;
 			width: 20rem;
+			.logo {
+				font-family: 'Fredoka One', cursive;
+				font-weight: 800;
+				font-size: 2rem;
+				letter-spacing: 0.1rem;
+				cursor: pointer;
+			}
 			a {
 				font-size: 2rem;
 			}
 		}
-		ul {
+		#navUl {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 25rem;
 			text-align: left;
 			li {
 				padding: 0.3rem;
@@ -65,21 +75,27 @@ footer {
 		padding-right: 0.8rem;
 		color: #fff;
 	}
-
 	a {
 		color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.container {
+		justify-content: center;
+		align-items: center;
 	}
 
-	.img-container {
-		border-radius: 60px;
-		background: #255030;
-		margin: 2rem auto 0 auto;
-		width: 500px;
-	}
+	#contact-links {
+		width: 35rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 
-	img {
-		padding-top: 1rem;
-		// width: 600px;
-		width: 100%;
+		li:hover i {
+			opacity: 0.7;
+		}
 	}
 }
+
+@import 'media';

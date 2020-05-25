@@ -5,6 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Henry Moss | Home</title>
 		<link rel="stylesheet" href="main.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+			rel="stylesheet"
+		/>
 		<script
 			src="https://kit.fontawesome.com/60fa2fe907.js"
 			crossorigin="anonymous"
@@ -15,14 +19,13 @@
 			<div class="container">
 				<nav id="main-nav">
 					<div id="logo-and-title">
-						<img src="../img/squarelogo.png" alt="square-logo" />
-						<a href="#">Henry Moss</a>
+						<a href="#"><h1 class="logo"></h1></a>
 					</div>
-					<ul>
-						<li><a href="animator.html" class="current">Animator</a></li>
-						<li><a href="animator.html">Motion Designer</a></li>
-						<li><a href="animator.html">Programmer</a></li>
-						<li><a href="animator.html">Resume</a></li>
+					<ul id="navUl">
+						<li><a href="#" class="current">Home</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -33,7 +36,7 @@
 				Animator
 			</div>
 			<div class="container">
-				<section id="animation-a">
+				<section id="skills">
 					<p>Check out my reel!</p>
 					<p><strong>Animator with Unreal Experience</strong></p>
 					<iframe
@@ -57,13 +60,16 @@
 						allowfullscreen
 					></iframe>
 				</section>
+				<section id="projects">
+					<h1>Projects</h1>
+				</section>
 			</div>
 		</main>
 
 		<footer id="main-footer">
-			<div class="container">
+			<div id="contact" class="container flex-col">
 				<p><em>Feel free to contact me below:</em></p>
-				<ul>
+				<ul id="contact-links">
 					<li>
 						<a href="mailto:htmoss7@gmail.com" target="_blank">
 							<i class="fas fa-envelope fa-2x"></i>
@@ -71,15 +77,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://instagram.com/mrhankster" target="_blank">
-							<i class="fab fa-instagram fa-2x"></i>
-							<span>@mrhankster</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://linkedin.com/in/hankmoss" target="_blank">
+						<a href="https://www.linkedin.com/in/hankmoss" target="_blank">
 							<i class="fab fa-linkedin fa-2x"></i>
-							<span>hankmoss</span>
+							<span>henrymoss</span>
 						</a>
 					</li>
 					<li>
@@ -89,13 +89,8 @@
 						</a>
 					</li>
 				</ul>
-				<div class="bg-light img-container">
-					<img
-						src="../img/website-bottom-banner.png"
-						alt="website-bottom-banner"
-					/>
-				</div>
 			</div>
 		</footer>
+		<script src="app.js"></script>
 	</body>
 </html>
