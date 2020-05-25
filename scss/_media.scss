@@ -10,6 +10,16 @@
 		}
 	}
 
+	main {
+		.skill-boxes {
+			grid-template-columns: repeat(1, 1fr);
+
+			.skill-list {
+				margin: 1rem;
+			}
+		}
+	}
+
 	footer {
 		padding: 1rem;
 		#contact-links {

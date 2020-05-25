@@ -9,6 +9,10 @@
 			href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap"
+			rel="stylesheet"
+		/>
 		<script
 			src="https://kit.fontawesome.com/60fa2fe907.js"
 			crossorigin="anonymous"
@@ -39,22 +43,46 @@
 
 		<main>
 			<div class="container flex-col">
-				<section id="skills" class="flex-col">
+				<!-- Main Banner -->
+
+				<!-- SKILLS -->
+				<section id="skills" class="main-section flex-col">
 					<h2 class="section-title">
 						<i class="fas fa-laptop-code"></i>Skills
 					</h2>
-					<p>Javascript, HTML/CSS, etc.</p>
-					<iframe
-						id="animation-reel"
-						src="https://player.vimeo.com/video/249326427"
-						width="640"
-						height="360"
-						frameborder="0"
-						allow="autoplay; fullscreen"
-						allowfullscreen
-					></iframe>
+					<div class="skill-boxes">
+						<section id="using" class="skill-box">
+							<div class="skill-box-title">
+								<h1>What I'm Using</h1>
+							</div>
+							<div class="skill-list flex-col">
+								<i class="fab fa-html5 fa-3x"><p>HTML</p></i>
+								<i class="fab fa-css3-alt fa-3x"><p>CSS</p></i>
+								<i class="fab fa-js-square fa-3x"><p>JavaScript</p></i>
+								<i class="fab fa-adobe fa-3x"><p>Adobe Suite</p></i>
+							</div>
+						</section>
+						<section id="learning" class="skill-box">
+							<div class="skill-box-title">
+								<h1>What I'm Learning</h1>
+							</div>
+							<div class="skill-list flex-col">
+								<i class="fab fa-react fa-3x"><p>React</p></i>
+								<i class="fab fa-node-js fa-3x"><p>Node JS</p></i>
+							</div>
+						</section>
+						<section id="next" class="skill-box">
+							<div class="skill-box-title">
+								<h1>What's up next</h1>
+							</div>
+							<div class="skill-list flex-col">
+								<i class="fab fa-angular fa-3x"><p>Angular</p></i>
+								<i class="fab fa-vuejs fa-3x"><p>Vue</p></i>
+							</div>
+						</section>
+					</div>
 				</section>
-				<section id="projects" class="flex-col">
+				<section id="projects" class="main-section flex-col">
 					<h2 class="section-title">
 						<i class="far fa-clipboard"></i>Projects
 					</h2>
