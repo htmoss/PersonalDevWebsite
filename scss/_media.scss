@@ -1,30 +1,43 @@
-@media (max-width: 568px) {
-	header {
-		position: relative;
-	}
-
-	body {
-		overflow-x: hidden;
-	}
-
+@media (max-width: 800px) {
 	#main-nav {
-		flex-direction: column;
-		justify-content: center;
-		#logo-and-title * {
-			align-items: center;
-			text-align: center;
+		.logo {
+			font-size: 1.5rem;
+		}
+		#pageList {
+			li {
+				padding: 0.3rem;
+			}
 		}
 	}
 
-	#skills {
-		iframe {
-			width: 400px;
-		}
-	}
-
-	#main-footer {
+	footer {
+		padding: 1rem;
 		#contact-links {
 			flex-direction: column;
+			li {
+				padding: 0.5rem 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	#main-nav {
+		position: relative;
+		.container {
+			flex-direction: column !important;
+			padding: 0.7rem;
+		}
+		.logo {
+			text-align: center;
+		}
+		#pageList {
+			flex-direction: column;
+			padding-top: 0.5rem;
+			li {
+				padding: 0;
+				padding-top: 0.2rem;
+			}
 		}
 	}
 }

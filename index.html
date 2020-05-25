@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Henry Moss | Home</title>
+		<title>Henry Moss | Development</title>
 		<link rel="stylesheet" href="main.css" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
@@ -15,41 +15,35 @@
 		></script>
 	</head>
 	<body>
-		<header id="header-home">
-			<div class="container">
-				<nav id="main-nav">
-					<div id="logo-and-title">
-						<a href="#"><h1 class="logo"></h1></a>
-					</div>
-					<ul id="navUl">
-						<li><a href="#" class="current">Home</a></li>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
+		<!-- HEADER NAVBAR -->
+		<nav id="main-nav">
+			<div class="container flex-row">
+				<!-- <henrymoss/> logo part -->
+				<a href="#"><h1 class="logo"></h1></a>
+				<ul id="pageList">
+					<li>
+						<a href="#" class="current">Home</a>
+					</li>
+					<li>
+						<a href="#skills">Skills</a>
+					</li>
+					<li>
+						<a href="#projects">Projects</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
 			</div>
-		</header>
+		</nav>
 
-		<main id="animation-main">
-			<div class="container page-title bg-dark">
-				Animator
-			</div>
-			<div class="container">
-				<section id="skills">
-					<p>Check out my reel!</p>
-					<p><strong>Animator with Unreal Experience</strong></p>
-					<iframe
-						id="animation-reel"
-						src="https://player.vimeo.com/video/249326427"
-						width="640"
-						height="360"
-						frameborder="0"
-						allow="autoplay; fullscreen"
-						allowfullscreen
-					></iframe>
-					<p>Watch my short film below!</p>
-					<p>Animated in Maya | Rendered in Unreal</p>
+		<main>
+			<div class="container flex-col">
+				<section id="skills" class="flex-col">
+					<h2 class="section-title">
+						<i class="fas fa-laptop-code"></i>Skills
+					</h2>
+					<p>Javascript, HTML/CSS, etc.</p>
 					<iframe
 						id="animation-reel"
 						src="https://player.vimeo.com/video/249326427"
@@ -60,15 +54,20 @@
 						allowfullscreen
 					></iframe>
 				</section>
-				<section id="projects">
-					<h1>Projects</h1>
+				<section id="projects" class="flex-col">
+					<h2 class="section-title">
+						<i class="far fa-clipboard"></i>Projects
+					</h2>
 				</section>
 			</div>
 		</main>
 
+		<!-- Footer -->
 		<footer id="main-footer">
 			<div id="contact" class="container flex-col">
-				<p><em>Feel free to contact me below:</em></p>
+				<h2 class="section-title text-light">
+					<i class="fas fa-user"></i>Contact
+				</h2>
 				<ul id="contact-links">
 					<li>
 						<a href="mailto:htmoss7@gmail.com" target="_blank">
@@ -91,6 +90,10 @@
 				</ul>
 			</div>
 		</footer>
+		<script
+			src="https://kit.fontawesome.com/60fa2fe907.js"
+			crossorigin="anonymous"
+		></script>
 		<script src="app.js"></script>
 	</body>
 </html>
