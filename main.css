@@ -55,7 +55,7 @@ a {
   align-items: center;
   font-size: 2rem;
   font-family: 'Fredoka One', cursive;
-  letter-spacing: 0.1rem;
+  letter-spacing: 1rem;
   text-transform: uppercase;
   margin: auto;
 }
@@ -140,7 +140,6 @@ main .skill-boxes .skill-box-title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  letter-spacing: 0.1rem;
 }
 
 main .skill-boxes .skill-list {
