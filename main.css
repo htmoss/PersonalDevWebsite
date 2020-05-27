@@ -5,6 +5,10 @@
   overflow: hidden;
 }
 
+.text-center {
+  text-align: center;
+}
+
 ul li {
   list-style: none;
 }
@@ -112,6 +116,22 @@ body {
 
 #main-nav #pageList i {
   padding-right: 0.3rem;
+}
+
+main #main-banner {
+  height: 50vh;
+  background: #489c70;
+  color: #fbf4e9;
+}
+
+main #main-banner h1 {
+  display: inline-block;
+  font-size: 3rem;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  margin: .5rem 24rem;
+  border-bottom: #fbf4e9 3px solid;
 }
 
 main .main-section {
@@ -255,6 +275,7 @@ footer #contact-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 footer #contact-links li {
@@ -263,6 +284,10 @@ footer #contact-links li {
 
 footer #contact-links li:hover i {
   opacity: 0.7;
+}
+
+footer p {
+  font-size: .1rem;
 }
 
 @media (max-width: 800px) {

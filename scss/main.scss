@@ -47,6 +47,21 @@ body {
 
 // Main-section
 main {
+	#main-banner{
+		height: 50vh;
+		background: $dark-green;
+		color: $background-color;
+		h1{
+			display: inline-block;
+			font-size: 3rem;
+			font-family: 'Fredoka One', cursive;
+			letter-spacing: 1rem;
+			text-transform: uppercase;
+			margin: .5rem 24rem;
+			border-bottom: $background-color 3px solid;
+		}
+	}
+
 	.main-section {
 		padding-top: 3rem;
 	}
@@ -186,6 +201,7 @@ footer {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		margin-bottom: 2rem;
 
 		li {
 			padding: 0 2rem;
@@ -194,6 +210,9 @@ footer {
 		li:hover i {
 			opacity: 0.7;
 		}
+	}
+	p{
+		font-size: .1rem;
 	}
 }
 
