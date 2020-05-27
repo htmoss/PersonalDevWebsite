@@ -11,14 +11,16 @@
 	}
 
 	main {
-		.skill-boxes {
-			grid-template-columns: repeat(1, 1fr);
-
-			.skill-list {
-				margin: 1rem;
-			}
+		.skill-list {
+			grid-template-columns: repeat(1,1fr) !important;
+			gap: 0 !important;
 		}
+		.project-boxes{
+			grid-template-columns: repeat(1, 1fr) !important;
+		}		
 	}
+
+	
 
 	footer {
 		padding: 1rem;
@@ -49,5 +51,10 @@
 				padding-top: 0.2rem;
 			}
 		}
+	}
+
+	.section-title{
+		font-size: 1.8rem;
+		letter-spacing: .3rem;
 	}
 }

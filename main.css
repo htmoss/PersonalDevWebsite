@@ -84,6 +84,7 @@ body {
   position: sticky;
   top: 0;
   background: #fbf4e9;
+  z-index: 1;
 }
 
 #main-nav .container {
@@ -119,19 +120,17 @@ body {
 }
 
 main #main-banner {
-  height: 50vh;
+  height: 60vh;
   background: #489c70;
   color: #fbf4e9;
 }
 
 main #main-banner h1 {
-  display: inline-block;
   font-size: 3rem;
   font-family: 'Fredoka One', cursive;
   letter-spacing: 1rem;
   text-transform: uppercase;
-  margin: .5rem 24rem;
-  border-bottom: #fbf4e9 3px solid;
+  margin-bottom: 1rem;
 }
 
 main .main-section {
@@ -177,6 +176,7 @@ main .skill-boxes .skill-list i {
   border-radius: 10px;
   display: flex;
   align-items: center;
+  transition: .15s all ease-in-out;
 }
 
 main .skill-boxes .skill-list i p {
@@ -185,6 +185,11 @@ main .skill-boxes .skill-list i p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+main .skill-boxes .skill-list i:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.6);
 }
 
 main .skill-boxes #c_plus_img {
@@ -297,11 +302,12 @@ footer p {
   #main-nav #pageList li {
     padding: 0.3rem;
   }
-  main .skill-boxes {
-    grid-template-columns: repeat(1, 1fr);
+  main .skill-list {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 0 !important;
   }
-  main .skill-boxes .skill-list {
-    margin: 1rem;
+  main .project-boxes {
+    grid-template-columns: repeat(1, 1fr) !important;
   }
   footer {
     padding: 1rem;
@@ -332,6 +338,10 @@ footer p {
   #main-nav #pageList li {
     padding: 0;
     padding-top: 0.2rem;
+  }
+  .section-title {
+    font-size: 1.8rem;
+    letter-spacing: .3rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
