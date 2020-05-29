@@ -358,6 +358,7 @@ footer p {
   #main-nav #pageList li {
     padding: 0;
     padding-top: 0.2rem;
+    margin: auto;
   }
   main #gif {
     height: 280px;
