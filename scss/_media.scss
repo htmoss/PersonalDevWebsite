@@ -1,3 +1,6 @@
+@media (max-height: 900px) {
+}
+
 @media (max-width: 800px) {
 	#main-nav {
 		.logo {
@@ -36,21 +39,39 @@
 
 @media (max-width: 500px) {
 	#main-nav {
-		position: relative;
+		bottom: 0;
+		top: initial;
+		position: fixed;
+		width: 100%;
+		border-top: 5px $dark-green solid;
+		border-bottom: none;
 		.container {
-			flex-direction: column !important;
 			padding: 0.7rem;
+			flex-direction: column;
 		}
 		.logo {
 			text-align: center;
+			margin: auto;
 		}
 		#pageList {
-			flex-direction: column;
 			padding-top: 0.5rem;
+
+			justify-content: space-between;
 			li {
 				padding: 0;
 				padding-top: 0.2rem;
 				margin: auto;
+				&:hover {
+					border: none;
+				}
+			}
+			a {
+				span {
+					display: none;
+				}
+				i {
+					display: inline-block;
+				}
 			}
 		}
 	}
@@ -59,10 +80,17 @@
 		#gif {
 			height: 280px;
 		}
+		#main-banner {
+			height: 90vh;
+		}
 	}
 
 	.section-title {
 		font-size: 1.8rem;
 		letter-spacing: 0.3rem;
+	}
+
+	footer {
+		padding-bottom: 7rem;
 	}
 }

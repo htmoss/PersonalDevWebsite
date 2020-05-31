@@ -29,6 +29,9 @@ body {
 	}
 	a {
 		cursor: pointer;
+		i {
+			display: none;
+		}
 	}
 
 	#pageList {
@@ -65,7 +68,7 @@ main {
 
 	#main-banner {
 		z-index: -1;
-		height: 60vh;
+		height: 40rem;
 		background: $dark-green;
 		color: $background-color;
 		h1 {

@@ -103,6 +103,10 @@ body {
   cursor: pointer;
 }
 
+#main-nav a i {
+  display: none;
+}
+
 #main-nav #pageList {
   font-size: 1rem;
   display: flex;
@@ -136,7 +140,7 @@ main #gif {
 
 main #main-banner {
   z-index: -1;
-  height: 60vh;
+  height: 40rem;
   background: #489c70;
   color: #fbf4e9;
 }
@@ -342,30 +346,51 @@ footer p {
 
 @media (max-width: 500px) {
   #main-nav {
-    position: relative;
+    bottom: 0;
+    top: initial;
+    position: fixed;
+    width: 100%;
+    border-top: 5px #489c70 solid;
+    border-bottom: none;
   }
   #main-nav .container {
-    flex-direction: column !important;
     padding: 0.7rem;
+    flex-direction: column;
   }
   #main-nav .logo {
     text-align: center;
+    margin: auto;
   }
   #main-nav #pageList {
-    flex-direction: column;
     padding-top: 0.5rem;
+    justify-content: space-between;
   }
   #main-nav #pageList li {
     padding: 0;
     padding-top: 0.2rem;
     margin: auto;
   }
+  #main-nav #pageList li:hover {
+    border: none;
+  }
+  #main-nav #pageList a span {
+    display: none;
+  }
+  #main-nav #pageList a i {
+    display: inline-block;
+  }
   main #gif {
     height: 280px;
+  }
+  main #main-banner {
+    height: 90vh;
   }
   .section-title {
     font-size: 1.8rem;
     letter-spacing: 0.3rem;
+  }
+  footer {
+    padding-bottom: 7rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
