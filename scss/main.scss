@@ -1,4 +1,4 @@
-@import 'utilities';
+@import "utilities";
 
 * {
 	margin: 0;
@@ -8,7 +8,7 @@
 
 body {
 	background: $background-color;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 // NAVBAR
@@ -23,7 +23,7 @@ body {
 		justify-content: space-between !important;
 	}
 	.logo {
-		font-family: 'Fredoka One', cursive;
+		font-family: "Fredoka One", cursive;
 		font-size: 2rem;
 		letter-spacing: 0.1rem;
 	}
@@ -73,7 +73,7 @@ main {
 		color: $background-color;
 		h1 {
 			font-size: 3rem;
-			font-family: 'Fredoka One', cursive;
+			font-family: "Fredoka One", cursive;
 			letter-spacing: 1rem;
 			text-transform: uppercase;
 			margin-bottom: 1rem;
@@ -85,6 +85,7 @@ main {
 		padding-top: 3rem;
 	}
 
+	// SKILLS
 	.skill-boxes {
 		margin: auto;
 		margin-top: 3rem;
@@ -100,7 +101,7 @@ main {
 		.skill-box-title {
 			color: #fff;
 			padding: 1rem;
-			font-family: 'Open Sans', sans-serif;
+			font-family: "Open Sans", sans-serif;
 			font-weight: 600;
 			font-size: 1.5rem;
 		}
@@ -126,7 +127,7 @@ main {
 				p {
 					padding-left: 0.6rem;
 					padding-bottom: 0.1rem;
-					font-family: 'Open Sans', sans-serif;
+					font-family: "Open Sans", sans-serif;
 					font-size: 1.5rem;
 					font-weight: 600;
 				}
@@ -140,6 +141,27 @@ main {
 		#c_plus_img {
 			margin-left: -0.2rem;
 			width: 39.5px;
+		}
+	}
+	#resume {
+		margin: 2rem auto;
+		text-align: center;
+		line-height: 1.5;
+		max-width: 30rem;
+		p {
+			margin-bottom: 1.5rem;
+		}
+
+		a {
+			color: white;
+			background: $dark-green;
+			padding: 0.5rem 1rem;
+			border-radius: 10px;
+			transition: 0.15s all ease-in-out;
+		}
+		a:hover {
+			transform: scale(1.5);
+			box-shadow: 2px 4px 15px rgba($color: #000000, $alpha: 0.3);
 		}
 	}
 
@@ -162,7 +184,7 @@ main {
 			.project-box-title {
 				color: #fff;
 				padding: 1rem;
-				font-family: 'Open Sans', sans-serif;
+				font-family: "Open Sans", sans-serif;
 				font-weight: 600;
 				font-size: 1.5rem;
 			}
@@ -186,7 +208,7 @@ main {
 					p {
 						padding-left: 0.6rem;
 						padding-bottom: 0.1rem;
-						font-family: 'Open Sans', sans-serif;
+						font-family: "Open Sans", sans-serif;
 						font-size: 1.5rem;
 						font-weight: 600;
 					}
@@ -239,4 +261,4 @@ footer {
 	}
 }
 
-@import 'media';
+@import "media";
