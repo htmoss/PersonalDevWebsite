@@ -219,10 +219,11 @@ main .skill-boxes #c_plus_img {
 }
 
 main #resume {
-  margin: 2rem auto;
+  color: white;
+  margin: 0.6rem auto 1.5rem auto;
   text-align: center;
   line-height: 1.5;
-  max-width: 30rem;
+  padding: 0 2rem;
 }
 
 main #resume p {
