@@ -83,6 +83,14 @@
 		#main-banner {
 			height: 90vh;
 		}
+		#projects {
+			.project-links {
+				flex-direction: column !important;
+				a:first-child {
+					margin-right: 0 !important;
+				}
+			}
+		}
 	}
 
 	.section-title {
