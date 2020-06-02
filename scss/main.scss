@@ -205,8 +205,11 @@ main {
 					margin-bottom: 1rem;
 					padding: 0.5rem 1rem;
 					border-radius: 10px;
-					display: flex;
-					justify-content: center;
+					transition: 0.15s all ease-in-out;
+					&:hover {
+						transform: scale(1.05);
+						box-shadow: 3px 5px 8px rgba($color: #000000, $alpha: 0.6);
+					}
 					&:first-child {
 						margin-right: 0.5rem;
 					}
