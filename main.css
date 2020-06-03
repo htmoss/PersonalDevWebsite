@@ -1,444 +1,444 @@
 .container {
-  max-width: 1100px;
-  padding: 0 1.5rem;
-  margin: auto;
-  overflow: hidden;
+	max-width: 1100px;
+	padding: 0 1.5rem;
+	margin: auto;
+	overflow: hidden;
 }
 
 .text-center {
-  text-align: center;
+	text-align: center;
 }
 
 ul li {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  text-decoration: none;
-  color: #489c70;
+	text-decoration: none;
+	color: #489c70;
 }
 
 .page-title {
-  font-size: 3rem;
-  font-weight: bold;
-  border-bottom: #489c70 3px solid;
-  max-width: none;
+	font-size: 3rem;
+	font-weight: bold;
+	border-bottom: #489c70 3px solid;
+	max-width: none;
 }
 
 .bg-light {
-  background: #fbf4e9;
-  color: #489c70;
+	background: #fbf4e9;
+	color: #489c70;
 }
 
 .bg-dark {
-  background: #489c70;
-  color: #fbf4e9;
+	background: #489c70;
+	color: #fbf4e9;
 }
 
 .text-light {
-  color: #fbf4e9 !important;
+	color: #fbf4e9 !important;
 }
 
 .flex-col {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
 }
 
 .flex-row {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
 }
 
 .section-title {
-  color: #489c70;
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
-  font-family: 'Fredoka One', cursive;
-  letter-spacing: 1rem;
-  text-transform: uppercase;
-  margin: auto;
+	color: #489c70;
+	display: flex;
+	align-items: center;
+	font-size: 2rem;
+	font-family: 'Fredoka One', cursive;
+	letter-spacing: 1rem;
+	text-transform: uppercase;
+	margin: auto;
 }
 
 .section-title i {
-  padding-right: 1rem;
-  font-size: 2.5rem;
+	padding-right: 1rem;
+	font-size: 2.5rem;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  background: #fbf4e9;
-  font-family: "Open Sans", sans-serif;
+	background: #fbf4e9;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #main-nav {
-  border-bottom: 5px #489c70 solid;
-  position: sticky;
-  top: 0;
-  background: #fbf4e9;
-  z-index: 1;
+	border-bottom: 5px #489c70 solid;
+	position: sticky;
+	top: 0;
+	background: #fbf4e9;
+	z-index: 1;
 }
 
 #main-nav .container {
-  padding: 1.5rem 3rem;
-  justify-content: space-between !important;
+	padding: 1.5rem 3rem;
+	justify-content: space-between !important;
 }
 
 #main-nav .logo {
-  font-family: "Fredoka One", cursive;
-  font-size: 2rem;
-  letter-spacing: 0.1rem;
+	font-family: 'Fredoka One', cursive;
+	font-size: 2rem;
+	letter-spacing: 0.1rem;
 }
 
 #main-nav a {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 #main-nav a i {
-  display: none;
+	display: none;
 }
 
 #main-nav #pageList {
-  font-size: 1rem;
-  display: flex;
-  flex-direction: row;
-  text-align: left;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
 }
 
 #main-nav #pageList li {
-  font-size: 1.2rem;
-  margin: auto;
-  margin-left: 3rem;
-  transition: all 0.1s ease;
-  padding: 0.3rem 0 0.2rem 0;
-  border-bottom: 2px #fbf4e9 solid;
+	font-size: 1.2rem;
+	margin: auto;
+	margin-left: 3rem;
+	transition: all 0.1s ease;
+	padding: 0.3rem 0 0.2rem 0;
+	border-bottom: 2px #fbf4e9 solid;
 }
 
 #main-nav #pageList li:hover {
-  border-bottom: 2px #489c70 solid;
+	border-bottom: 2px #489c70 solid;
 }
 
 #main-nav #pageList i {
-  margin-right: 0.3rem;
+	margin-right: 0.3rem;
 }
 
 main #gif {
-  position: relative;
-  height: 500px;
-  margin: auto;
-  padding-bottom: 2rem;
+	position: relative;
+	height: 500px;
+	margin: auto;
+	padding-bottom: 2rem;
 }
 
 main #main-banner {
-  z-index: -1;
-  height: 40rem;
-  background: #489c70;
-  color: #fbf4e9;
+	z-index: -1;
+	height: 40rem;
+	background: #489c70;
+	color: #fbf4e9;
 }
 
 main #main-banner h1 {
-  font-size: 3rem;
-  font-family: "Fredoka One", cursive;
-  letter-spacing: 1rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  margin-top: 10rem;
+	font-size: 3rem;
+	font-family: 'Fredoka One', cursive;
+	letter-spacing: 1rem;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	margin-top: 10rem;
 }
 
 main .main-section {
-  padding-top: 3rem;
+	padding-top: 3rem;
 }
 
 main .skill-boxes {
-  margin: auto;
-  margin-top: 3rem;
-  text-align: center;
+	margin: auto;
+	margin-top: 3rem;
+	text-align: center;
 }
 
 main .skill-boxes .skill-box {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  background: #333;
-  padding-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	background: #333;
+	padding-bottom: 1rem;
 }
 
 main .skill-boxes .skill-box-title {
-  color: #fff;
-  padding: 1rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
+	color: #fff;
+	padding: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
 }
 
 main .skill-boxes .skill-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 0 1rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	margin: 0 1rem;
 }
 
 main .skill-boxes .skill-list i {
-  color: white;
-  text-align: left;
-  font-size: 2.5rem;
-  background: #489c70;
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  transition: 0.15s all ease-in-out;
+	color: white;
+	text-align: left;
+	font-size: 2.5rem;
+	background: #489c70;
+	margin-bottom: 1rem;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	transition: 0.15s all ease-in-out;
 }
 
 main .skill-boxes .skill-list i p {
-  padding-left: 0.6rem;
-  padding-bottom: 0.1rem;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 600;
+	padding-left: 0.6rem;
+	padding-bottom: 0.1rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
 }
 
 main .skill-boxes .skill-list i:hover {
-  transform: scale(1.05);
-  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.6);
+	transform: scale(1.05);
+	box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.6);
 }
 
 main .skill-boxes #c_plus_img {
-  margin-left: -0.2rem;
-  width: 39.5px;
+	margin-left: -0.2rem;
+	width: 39.5px;
 }
 
 main #resume {
-  color: white;
-  margin: 0.6rem auto 1.5rem auto;
-  text-align: center;
-  line-height: 1.5;
-  padding: 0 2rem;
+	color: white;
+	margin: 0.6rem auto 1.5rem auto;
+	text-align: center;
+	line-height: 1.5;
+	padding: 0 2rem;
 }
 
 main #resume p {
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 main #resume a {
-  color: white;
-  background: #489c70;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  transition: 0.15s all ease-in-out;
+	color: white;
+	background: #489c70;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	transition: 0.15s all ease-in-out;
 }
 
 main #resume a:hover {
-  transform: scale(1.5);
-  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.5);
+	box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 main #projects .project-boxes {
-  margin: auto;
-  margin-top: 3rem;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+	margin: auto;
+	margin-top: 3rem;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
 }
 
 main #projects .project-boxes .project-box {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  background: #333;
-  padding-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	background: #333;
+	padding-bottom: 1rem;
 }
 
 main #projects .project-boxes .project-box-title {
-  color: #fff;
-  padding: 1rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
+	color: #fff;
+	padding: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
 }
 
 main #projects .project-boxes .project-links {
-  display: flex;
-  flex-direction: row;
-  margin: 0 1rem;
+	display: flex;
+	flex-direction: row;
+	margin: 0 1rem;
 }
 
 main #projects .project-boxes .project-links a {
-  color: white;
-  text-align: left;
-  font-size: 2.5rem;
-  background: #489c70;
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  transition: 0.15s all ease-in-out;
+	color: white;
+	text-align: left;
+	font-size: 2.5rem;
+	background: #489c70;
+	margin-bottom: 1rem;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	transition: 0.15s all ease-in-out;
 }
 
 main #projects .project-boxes .project-links a:hover {
-  transform: scale(1.05);
-  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.6);
+	transform: scale(1.05);
+	box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.6);
 }
 
 main #projects .project-boxes .project-links a:first-child {
-  margin-right: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 main #projects .project-boxes .project-links a i {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 1rem;
-  justify-content: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 1rem;
+	justify-content: center;
 }
 
 main #projects .project-boxes .project-links a p {
-  padding-left: 0.6rem;
-  padding-bottom: 0.1rem;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 600;
+	padding-left: 0.6rem;
+	padding-bottom: 0.1rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
 }
 
 footer {
-  margin-top: 3rem;
-  background: #489c70;
-  color: #fff;
-  padding: 2rem;
+	margin-top: 3rem;
+	background: #489c70;
+	color: #fff;
+	padding: 2rem;
 }
 
 footer h2 {
-  padding-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 footer i {
-  padding-right: 0.8rem;
-  color: #fff;
+	padding-right: 0.8rem;
+	color: #fff;
 }
 
 footer a {
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 footer .container {
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 footer #contact-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 2rem;
 }
 
 footer #contact-links li {
-  padding: 0 2rem;
+	padding: 0 2rem;
 }
 
 footer #contact-links li:hover i {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 footer p {
-  font-size: 0.5rem;
+	font-size: 0.5rem;
 }
 
 @media (max-width: 800px) {
-  #main-nav .logo {
-    font-size: 1.5rem;
-  }
-  #main-nav #pageList li {
-    padding: 0.1rem;
-  }
-  main #gif {
-    height: 400px;
-  }
-  main .skill-list {
-    grid-template-columns: repeat(1, 1fr) !important;
-    gap: 0 !important;
-  }
-  main .project-boxes {
-    grid-template-columns: repeat(1, 1fr) !important;
-  }
-  footer {
-    padding: 1rem;
-  }
-  footer #contact-links {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  footer #contact-links li {
-    padding: 0.5rem 0;
-  }
+	#main-nav .logo {
+		font-size: 1.5rem;
+	}
+	#main-nav #pageList li {
+		padding: 0.1rem;
+	}
+	main #gif {
+		height: 400px;
+	}
+	main .skill-list {
+		grid-template-columns: repeat(1, 1fr) !important;
+		gap: 0 !important;
+	}
+	main .project-boxes {
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+	footer {
+		padding: 1rem;
+	}
+	footer #contact-links {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	footer #contact-links li {
+		padding: 0.5rem 0;
+	}
 }
 
 @media (max-width: 700px) {
-  #main-nav {
-    bottom: 0;
-    top: initial;
-    position: fixed;
-    width: 100%;
-    border-top: 5px #489c70 solid;
-    border-bottom: none;
-  }
-  #main-nav .container {
-    padding: 0.7rem;
-    flex-direction: column;
-  }
-  #main-nav .logo {
-    text-align: center;
-    margin: auto;
-  }
-  #main-nav #pageList {
-    padding-top: 0.5rem;
-    justify-content: space-between;
-  }
-  #main-nav #pageList li {
-    padding: 0;
-    padding-top: 0.2rem;
-    margin: auto;
-  }
-  #main-nav #pageList li:hover {
-    border: none;
-  }
-  #main-nav #pageList a span {
-    display: none;
-  }
-  #main-nav #pageList a i {
-    display: inline-block;
-  }
-  main #gif {
-    height: 280px;
-  }
-  main #main-banner {
-    height: 90vh;
-  }
-  main #projects .project-links {
-    flex-direction: column !important;
-  }
-  main #projects .project-links a:first-child {
-    margin-right: 0 !important;
-  }
-  .section-title {
-    font-size: 1.8rem;
-    letter-spacing: 0.3rem;
-  }
-  footer {
-    padding-bottom: 7rem;
-  }
+	#main-nav {
+		bottom: 0;
+		top: initial;
+		position: fixed;
+		width: 100%;
+		border-top: 5px #489c70 solid;
+		border-bottom: none;
+	}
+	#main-nav .container {
+		padding: 0.7rem;
+		flex-direction: column;
+	}
+	#main-nav .logo {
+		text-align: center;
+		margin: auto;
+	}
+	#main-nav #pageList {
+		padding-top: 0.5rem;
+		justify-content: space-between;
+	}
+	#main-nav #pageList li {
+		padding: 0;
+		padding-top: 0.2rem;
+		margin: auto;
+	}
+	#main-nav #pageList li:hover {
+		border: none;
+	}
+	#main-nav #pageList a span {
+		display: none;
+	}
+	#main-nav #pageList a i {
+		display: inline-block;
+	}
+	main #gif {
+		height: 280px;
+	}
+	main #main-banner {
+		height: 93vh;
+	}
+	main #projects .project-links {
+		flex-direction: column !important;
+	}
+	main #projects .project-links a:first-child {
+		margin-right: 0 !important;
+	}
+	.section-title {
+		font-size: 1.8rem;
+		letter-spacing: 0.3rem;
+	}
+	footer {
+		padding-bottom: 7rem;
+	}
 }
 /*# sourceMappingURL=main.css.map */
