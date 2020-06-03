@@ -8,7 +8,7 @@
 		}
 		#pageList {
 			li {
-				padding: 0.3rem;
+				padding: 0.1rem;
 			}
 		}
 	}
@@ -30,6 +30,7 @@
 		padding: 1rem;
 		#contact-links {
 			flex-direction: column;
+			align-items: flex-start;
 			li {
 				padding: 0.5rem 0;
 			}
@@ -37,7 +38,7 @@
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	#main-nav {
 		bottom: 0;
 		top: initial;
@@ -82,6 +83,14 @@
 		}
 		#main-banner {
 			height: 90vh;
+		}
+		#projects {
+			.project-links {
+				flex-direction: column !important;
+				a:first-child {
+					margin-right: 0 !important;
+				}
+			}
 		}
 	}
 
