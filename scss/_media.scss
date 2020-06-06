@@ -1,3 +1,19 @@
+@media (max-width: 1300px) {
+	#main-banner {
+		flex-direction: column;
+		#gif {
+			position: relative;
+			height: 500px;
+			// width: 400px;
+			margin: auto !important;
+			padding-bottom: 1rem;
+		}
+		#about-section {
+			padding: 0 0 2rem 0 !important;
+		}
+	}
+}
+
 @media (max-height: 900px) {
 }
 
@@ -78,17 +94,47 @@
 	}
 
 	main {
-		#gif {
-			height: 280px;
-		}
 		#main-banner {
-			height: 93vh;
+			height: 92vh;
+			#gif {
+				height: 268px;
+				padding-bottom: 0rem;
+				padding-top: 2rem;
+				margin: 0;
+				// margin: 6rem 1.5rem 0 1.5rem !important;
+			}
+			#about-name {
+				font-size: 1.5rem;
+			}
+			#about-block {
+				font-size: 1rem;
+			}
+			#scroll-down {
+				display: block;
+				padding-top: 3rem;
+				padding-bottom: 0rem;
+			}
 		}
 		#projects {
-			.project-links {
-				flex-direction: column !important;
-				a:first-child {
-					margin-right: 0 !important;
+			.project-boxes {
+				.project-links {
+					flex-direction: column !important;
+					align-items: flex-start;
+					a {
+						width: 100%;
+						align-items: flex-start;
+						justify-content: flex-start;
+						&:first-child {
+							margin-right: 0 !important;
+						}
+						i {
+							align-items: flex-start;
+							justify-content: flex-start;
+							p {
+								padding-top: 0.2rem;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -106,6 +152,36 @@
 			padding: 0 2.5rem;
 			li {
 				padding-left: 0rem;
+			}
+		}
+	}
+}
+
+// just iphone 5
+@media (max-width: 320px) {
+	main {
+		#main-banner {
+			#gif {
+				position: relative;
+				top: -2rem;
+				margin: 0;
+			}
+			#about-section {
+				position: relative;
+				top: -4rem;
+				margin: 0;
+				padding: 0 0.5rem !important;
+			}
+			#about-name {
+				font-size: 1rem;
+			}
+			#about-block {
+				font-size: 0.7rem;
+				padding: 0 1rem;
+			}
+			#scroll-down {
+				padding-top: 1rem;
+				font-size: 0.7rem;
 			}
 		}
 	}

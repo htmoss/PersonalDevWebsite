@@ -15,23 +15,23 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #489c70;
+  color: #26779c;
 }
 
 .page-title {
   font-size: 3rem;
   font-weight: bold;
-  border-bottom: #489c70 3px solid;
+  border-bottom: #26779c 3px solid;
   max-width: none;
 }
 
 .bg-light {
   background: #fbf4e9;
-  color: #489c70;
+  color: #26779c;
 }
 
 .bg-dark {
-  background: #489c70;
+  background: #26779c;
   color: #fbf4e9;
 }
 
@@ -54,7 +54,7 @@ a {
 }
 
 .section-title {
-  color: #489c70;
+  color: #26779c;
   display: flex;
   align-items: center;
   font-size: 2rem;
@@ -77,11 +77,11 @@ a {
 
 body {
   background: #fbf4e9;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #main-nav {
-  border-bottom: 5px #489c70 solid;
+  border-bottom: 5px #26779c solid;
   position: sticky;
   top: 0;
   background: #fbf4e9;
@@ -94,7 +94,7 @@ body {
 }
 
 #main-nav .logo {
-  font-family: "Fredoka One", cursive;
+  font-family: 'Fredoka One', cursive;
   font-size: 2rem;
   letter-spacing: 0.1rem;
 }
@@ -124,34 +124,57 @@ body {
 }
 
 #main-nav #pageList li:hover {
-  border-bottom: 2px #489c70 solid;
+  border-bottom: 2px #26779c solid;
 }
 
 #main-nav #pageList i {
   margin-right: 0.3rem;
 }
 
-main #gif {
-  position: relative;
-  height: 500px;
-  margin: auto;
-  padding-bottom: 2rem;
-}
-
 main #main-banner {
   z-index: -1;
-  height: 40rem;
-  background: #489c70;
+  height: 50rem;
+  background: #26779c;
   color: #fbf4e9;
 }
 
-main #main-banner h1 {
-  font-size: 3rem;
-  font-family: "Fredoka One", cursive;
-  letter-spacing: 1rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  margin-top: 10rem;
+main #main-banner #gif {
+  position: relative;
+  height: 500px;
+  margin: auto 2rem auto 10rem;
+}
+
+main #main-banner #about-section {
+  margin: auto 2rem;
+  padding-right: 5rem;
+}
+
+main #main-banner .info-li {
+  font-weight: 600;
+  max-width: 700px;
+  margin: auto;
+  padding: 0.1rem 0;
+}
+
+main #main-banner #about-name {
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 0.7rem;
+  display: inline-block;
+}
+
+main #main-banner #about-block {
+  max-width: 500px;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+main #main-banner #scroll-down {
+  padding: 1rem 0;
+  font-weight: bold;
+  display: none;
 }
 
 main .main-section {
@@ -175,7 +198,7 @@ main .skill-boxes .skill-box {
 main .skill-boxes .skill-box-title {
   color: #fff;
   padding: 1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
 }
@@ -191,7 +214,7 @@ main .skill-boxes .skill-list i {
   color: white;
   text-align: left;
   font-size: 2.5rem;
-  background: #489c70;
+  background: #26779c;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 10px;
@@ -203,7 +226,7 @@ main .skill-boxes .skill-list i {
 main .skill-boxes .skill-list i p {
   padding-left: 0.6rem;
   padding-bottom: 0.1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -232,7 +255,7 @@ main #resume p {
 
 main #resume a {
   color: white;
-  background: #489c70;
+  background: #26779c;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   transition: 0.15s all ease-in-out;
@@ -263,7 +286,7 @@ main #projects .project-boxes .project-box {
 main #projects .project-boxes .project-box-title {
   color: #fff;
   padding: 1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
 }
@@ -278,7 +301,7 @@ main #projects .project-boxes .project-links a {
   color: white;
   text-align: left;
   font-size: 2.5rem;
-  background: #489c70;
+  background: #26779c;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 10px;
@@ -298,21 +321,21 @@ main #projects .project-boxes .project-links a i {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 1rem;
+  font-size: 2rem;
   justify-content: center;
 }
 
 main #projects .project-boxes .project-links a p {
   padding-left: 0.6rem;
   padding-bottom: 0.1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 footer {
   margin-top: 3rem;
-  background: #489c70;
+  background: #26779c;
   color: #fff;
   padding: 2rem;
 }
@@ -357,6 +380,21 @@ footer p {
   font-size: 0.5rem;
 }
 
+@media (max-width: 1300px) {
+  #main-banner {
+    flex-direction: column;
+  }
+  #main-banner #gif {
+    position: relative;
+    height: 500px;
+    margin: auto !important;
+    padding-bottom: 1rem;
+  }
+  #main-banner #about-section {
+    padding: 0 0 2rem 0 !important;
+  }
+}
+
 @media (max-width: 800px) {
   #main-nav .logo {
     font-size: 1.5rem;
@@ -392,7 +430,7 @@ footer p {
     top: initial;
     position: fixed;
     width: 100%;
-    border-top: 5px #489c70 solid;
+    border-top: 5px #26779c solid;
     border-bottom: none;
   }
   #main-nav .container {
@@ -421,17 +459,44 @@ footer p {
   #main-nav #pageList a i {
     display: inline-block;
   }
-  main #gif {
-    height: 280px;
-  }
   main #main-banner {
-    height: 93vh;
+    height: 92vh;
   }
-  main #projects .project-links {
+  main #main-banner #gif {
+    height: 268px;
+    padding-bottom: 0rem;
+    padding-top: 2rem;
+    margin: 0;
+  }
+  main #main-banner #about-name {
+    font-size: 1.5rem;
+  }
+  main #main-banner #about-block {
+    font-size: 1rem;
+  }
+  main #main-banner #scroll-down {
+    display: block;
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+  }
+  main #projects .project-boxes .project-links {
     flex-direction: column !important;
+    align-items: flex-start;
   }
-  main #projects .project-links a:first-child {
+  main #projects .project-boxes .project-links a {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  main #projects .project-boxes .project-links a:first-child {
     margin-right: 0 !important;
+  }
+  main #projects .project-boxes .project-links a i {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  main #projects .project-boxes .project-links a i p {
+    padding-top: 0.2rem;
   }
   .section-title {
     font-size: 1.8rem;
@@ -446,6 +511,31 @@ footer p {
   }
   footer #contact-links li {
     padding-left: 0rem;
+  }
+}
+
+@media (max-width: 320px) {
+  main #main-banner #gif {
+    position: relative;
+    top: -2rem;
+    margin: 0;
+  }
+  main #main-banner #about-section {
+    position: relative;
+    top: -4rem;
+    margin: 0;
+    padding: 0 0.5rem !important;
+  }
+  main #main-banner #about-name {
+    font-size: 1rem;
+  }
+  main #main-banner #about-block {
+    font-size: 0.7rem;
+    padding: 0 1rem;
+  }
+  main #main-banner #scroll-down {
+    padding-top: 1rem;
+    font-size: 0.7rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

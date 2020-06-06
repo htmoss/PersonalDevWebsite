@@ -1,4 +1,4 @@
-@import "utilities";
+@import 'utilities';
 
 * {
 	margin: 0;
@@ -8,7 +8,7 @@
 
 body {
 	background: $background-color;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 // NAVBAR
@@ -23,7 +23,7 @@ body {
 		justify-content: space-between !important;
 	}
 	.logo {
-		font-family: "Fredoka One", cursive;
+		font-family: 'Fredoka One', cursive;
 		font-size: 2rem;
 		letter-spacing: 0.1rem;
 	}
@@ -58,26 +58,44 @@ body {
 
 // Main-section
 main {
-	#gif {
-		position: relative;
-		height: 500px;
-		// width: 400px;
-		margin: auto;
-		padding-bottom: 2rem;
-	}
-
 	#main-banner {
 		z-index: -1;
-		height: 40rem;
+		height: 50rem;
 		background: $dark-green;
 		color: $background-color;
-		h1 {
-			font-size: 3rem;
-			font-family: "Fredoka One", cursive;
-			letter-spacing: 1rem;
-			text-transform: uppercase;
-			margin-bottom: 1rem;
-			margin-top: 10rem;
+
+		#gif {
+			position: relative;
+			height: 500px;
+			margin: auto 2rem auto 10rem;
+		}
+		#about-section {
+			margin: auto 2rem;
+			padding-right: 5rem;
+		}
+		.info-li {
+			font-weight: 600;
+			max-width: 700px;
+			margin: auto;
+			padding: 0.1rem 0;
+		}
+		#about-name {
+			line-height: 1;
+			font-size: 2rem;
+			font-weight: bold;
+			padding-bottom: 0.7rem;
+			display: inline-block;
+		}
+		#about-block {
+			max-width: 500px;
+			margin: auto;
+			font-size: 1.2rem;
+			font-weight: 600;
+		}
+		#scroll-down {
+			padding: 1rem 0;
+			font-weight: bold;
+			display: none;
 		}
 	}
 
@@ -101,7 +119,7 @@ main {
 		.skill-box-title {
 			color: #fff;
 			padding: 1rem;
-			font-family: "Open Sans", sans-serif;
+			font-family: 'Open Sans', sans-serif;
 			font-weight: 600;
 			font-size: 1.5rem;
 		}
@@ -127,7 +145,7 @@ main {
 				p {
 					padding-left: 0.6rem;
 					padding-bottom: 0.1rem;
-					font-family: "Open Sans", sans-serif;
+					font-family: 'Open Sans', sans-serif;
 					font-size: 1.5rem;
 					font-weight: 600;
 				}
@@ -186,16 +204,13 @@ main {
 			.project-box-title {
 				color: #fff;
 				padding: 1rem;
-				font-family: "Open Sans", sans-serif;
+				font-family: 'Open Sans', sans-serif;
 				font-weight: 600;
 				font-size: 1.5rem;
 			}
 			.project-links {
-				// justify-content: left;
 				display: flex;
 				flex-direction: row;
-				// grid-auto-flow: column;
-				// gap: 1rem;
 				margin: 0 1rem;
 				a {
 					color: white;
@@ -218,13 +233,13 @@ main {
 						display: flex;
 						flex-direction: row;
 						align-items: center;
-						font-size: 1rem;
+						font-size: 2rem;
 						justify-content: center;
 					}
 					p {
 						padding-left: 0.6rem;
 						padding-bottom: 0.1rem;
-						font-family: "Open Sans", sans-serif;
+						font-family: 'Open Sans', sans-serif;
 						font-size: 1.5rem;
 						font-weight: 600;
 					}
@@ -277,4 +292,4 @@ footer {
 	}
 }
 
-@import "media";
+@import 'media';
