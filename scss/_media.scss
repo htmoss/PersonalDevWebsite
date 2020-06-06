@@ -101,5 +101,12 @@
 
 	footer {
 		padding-bottom: 7rem;
+		#contact-links {
+			align-self: flex-start;
+			padding: 0 2.5rem;
+			li {
+				padding-left: 0rem;
+			}
+		}
 	}
 }
