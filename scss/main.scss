@@ -40,6 +40,7 @@ body {
 		flex-direction: row;
 		text-align: left;
 		li {
+			font-weight: bold;
 			font-size: 1.2rem;
 			margin: auto;
 			margin-left: 3rem;
@@ -169,19 +170,28 @@ main {
 		line-height: 1.5;
 		padding: 0 2rem;
 		p {
+			font-weight: bold;
 			margin-bottom: 2rem;
 		}
 
 		a {
 			color: white;
 			background: $dark-green;
+			margin: 1rem;
 			padding: 0.5rem 1rem;
 			border-radius: 10px;
-			transition: 0.15s all ease-in-out;
+			transition: 0.15s all ease;
+			&:hover {
+				// transform: scale(3);
+				box-shadow: 2px 4px 15px rgba($color: #000000, $alpha: 0.3);
+			}
 		}
-		a:hover {
-			transform: scale(1.5);
-			box-shadow: 2px 4px 15px rgba($color: #000000, $alpha: 0.3);
+		div {
+			transition: 0.15s all ease;
+		}
+		div:hover {
+			transform: scale(1.05);
+			// box-shadow: 2px 4px 15px rgba($color: #000000, $alpha: 0.3);
 		}
 	}
 

@@ -115,6 +115,7 @@ body {
 }
 
 #main-nav #pageList li {
+  font-weight: bold;
   font-size: 1.2rem;
   margin: auto;
   margin-left: 3rem;
@@ -250,20 +251,29 @@ main #resume {
 }
 
 main #resume p {
+  font-weight: bold;
   margin-bottom: 2rem;
 }
 
 main #resume a {
   color: white;
   background: #26779c;
+  margin: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 10px;
-  transition: 0.15s all ease-in-out;
+  transition: 0.15s all ease;
 }
 
 main #resume a:hover {
-  transform: scale(1.5);
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+main #resume div {
+  transition: 0.15s all ease;
+}
+
+main #resume div:hover {
+  transform: scale(1.05);
 }
 
 main #projects .project-boxes {
