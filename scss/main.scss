@@ -170,6 +170,7 @@ main {
 		line-height: 1.5;
 		padding: 0 2rem;
 		p {
+			max-width: 25rem;
 			font-weight: bold;
 			margin-bottom: 2rem;
 		}
@@ -260,13 +261,15 @@ main {
 }
 
 // Footer
-footer {
-	margin-top: 3rem;
+#main-footer,
+#submit-footer {
+	margin-top: 4rem;
 	background: $dark-green;
 	color: #fff;
 	padding: 2rem;
 	h2 {
-		padding-bottom: 2rem;
+		padding: 2rem 0;
+		margin: auto;
 	}
 	i {
 		padding-right: 0.8rem;
@@ -371,6 +374,40 @@ footer {
 	p {
 		font-size: 0.5rem;
 	}
+}
+
+////////// Submit Page
+#submit-banner {
+	z-index: -1;
+	height: 60rem;
+	background: $dark-green;
+	color: $background-color;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	h1 {
+		padding-bottom: 2rem;
+		font-size: 3rem;
+	}
+	a {
+		background: #333;
+		color: #fff;
+		padding: 0.5rem 0.8rem;
+		border-radius: 10px;
+		font-size: 1.2rem;
+		font-weight: bold;
+		transition: 0.15s all ease-in-out;
+		&:hover {
+			transform: scale(1.03);
+			box-shadow: 3px 5px 8px rgba($color: #222222, $alpha: 0.4);
+		}
+	}
+}
+
+#submit-footer {
+	margin-top: 0;
 }
 
 @import 'media';

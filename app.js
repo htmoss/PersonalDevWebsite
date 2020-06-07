@@ -45,7 +45,7 @@ $('#main-nav a').on('click', function (e) {
 
 		$('html, body').animate(
 			{
-				scrollTop: $(hash).offset().top + 200,
+				scrollTop: $(hash).offset().top - 70,
 			},
 			800
 		);
