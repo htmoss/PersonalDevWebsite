@@ -713,4 +713,10 @@ main #projects .project-boxes .project-links a p {
     height: 80vh;
   }
 }
+
+@media (max-height: 520px) {
+  main #main-banner #gif {
+    height: 220px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
