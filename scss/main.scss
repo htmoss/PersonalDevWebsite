@@ -270,7 +270,7 @@ footer {
 	}
 	i {
 		padding-right: 0.8rem;
-		color: #fff;
+		color: $light-color;
 	}
 	a {
 		color: #fff;
@@ -281,6 +281,77 @@ footer {
 	.container {
 		justify-content: center;
 		align-items: center;
+	}
+	#main-contact-form {
+		.form-group {
+			padding-bottom: 1rem;
+			width: 30rem;
+		}
+		form {
+			width: 100%;
+			font-family: 'Open Sans', sans-serif;
+			textarea,
+			input,
+			select,
+			button {
+				font-family: inherit;
+				font-size: inherit;
+			}
+		}
+
+		label {
+			padding: 0.5rem 0;
+		}
+		input {
+			background: $light-color;
+			padding: 0.5rem;
+			border-radius: 5px;
+			font-size: 1.2rem;
+			border: none;
+			&:focus {
+				background: $input-focus-color;
+				outline: none;
+				border: none;
+			}
+		}
+		textarea {
+			background: $light-color;
+			border-radius: 5px;
+			font-family: 'Open Sans', sans-serif;
+			padding: 0.5rem;
+			font-size: 0.8rem;
+			height: 8rem;
+			resize: none;
+			border: none;
+			&:focus {
+				background: $input-focus-color;
+				outline: none;
+				border: none;
+			}
+		}
+		input,
+		textarea {
+			color: #222;
+		}
+
+		textarea:focus,
+		input:focus {
+			color: #222;
+		}
+
+		input[type='submit'] {
+			font-weight: bold;
+			margin-bottom: 3rem;
+			margin-top: 0.5rem;
+			background: #333;
+			color: #fff;
+			&:hover {
+				background: #444;
+			}
+			&:focus {
+				background: #555;
+			}
+		}
 	}
 
 	#contact-links {

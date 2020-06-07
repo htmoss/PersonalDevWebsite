@@ -175,11 +175,28 @@
 		</main>
 
 		<!-- Footer -->
-		<footer id="main-footer">
+		<footer id="main-footer" data-netlify="true">
 			<div id="contact" class="container flex-col">
 				<h2 class="section-title text-light">
 					<i class="fas fa-user"></i>Contact
 				</h2>
+				<form id="main-contact-form" class="flex-col" action="">
+					<div class="form-group flex-col">
+						<label for="name">Name</label>
+						<input type="text" id="input-name" name="name" />
+					</div>
+					<div class="form-group flex-col">
+						<label for="name">Email</label>
+						<input type="email" id="input-email" name="email" />
+					</div>
+					<div class="form-group flex-col">
+						<label for="name">Message</label>
+						<textarea name="text"></textarea>
+					</div>
+					<div class="form-group flex-col">
+						<input type="submit" placeholder="Submit" name="message" />
+					</div>
+				</form>
 				<ul id="contact-links">
 					<li>
 						<a href="https://www.linkedin.com/in/hankmoss" target="_blank">

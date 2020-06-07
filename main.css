@@ -15,23 +15,23 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #26779c;
+  color: #489c70;
 }
 
 .page-title {
   font-size: 3rem;
   font-weight: bold;
-  border-bottom: #26779c 3px solid;
+  border-bottom: #489c70 3px solid;
   max-width: none;
 }
 
 .bg-light {
   background: #fbf4e9;
-  color: #26779c;
+  color: #489c70;
 }
 
 .bg-dark {
-  background: #26779c;
+  background: #489c70;
   color: #fbf4e9;
 }
 
@@ -54,7 +54,7 @@ a {
 }
 
 .section-title {
-  color: #26779c;
+  color: #489c70;
   display: flex;
   align-items: center;
   font-size: 2rem;
@@ -81,7 +81,7 @@ body {
 }
 
 #main-nav {
-  border-bottom: 5px #26779c solid;
+  border-bottom: 5px #489c70 solid;
   position: sticky;
   top: 0;
   background: #fbf4e9;
@@ -125,7 +125,7 @@ body {
 }
 
 #main-nav #pageList li:hover {
-  border-bottom: 2px #26779c solid;
+  border-bottom: 2px #489c70 solid;
 }
 
 #main-nav #pageList i {
@@ -135,7 +135,7 @@ body {
 main #main-banner {
   z-index: -1;
   height: 50rem;
-  background: #26779c;
+  background: #489c70;
   color: #fbf4e9;
 }
 
@@ -215,7 +215,7 @@ main .skill-boxes .skill-list i {
   color: white;
   text-align: left;
   font-size: 2.5rem;
-  background: #26779c;
+  background: #489c70;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 10px;
@@ -257,7 +257,7 @@ main #resume p {
 
 main #resume a {
   color: white;
-  background: #26779c;
+  background: #489c70;
   margin: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 10px;
@@ -311,7 +311,7 @@ main #projects .project-boxes .project-links a {
   color: white;
   text-align: left;
   font-size: 2.5rem;
-  background: #26779c;
+  background: #489c70;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 10px;
@@ -345,7 +345,7 @@ main #projects .project-boxes .project-links a p {
 
 footer {
   margin-top: 3rem;
-  background: #26779c;
+  background: #489c70;
   color: #fff;
   padding: 2rem;
 }
@@ -356,7 +356,7 @@ footer h2 {
 
 footer i {
   padding-right: 0.8rem;
-  color: #fff;
+  color: #fbf4e9;
 }
 
 footer a {
@@ -369,6 +369,85 @@ footer a {
 footer .container {
   justify-content: center;
   align-items: center;
+}
+
+footer #main-contact-form .form-group {
+  padding-bottom: 1rem;
+  width: 30rem;
+}
+
+footer #main-contact-form form {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer #main-contact-form form textarea,
+footer #main-contact-form form input,
+footer #main-contact-form form select,
+footer #main-contact-form form button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+footer #main-contact-form label {
+  padding: 0.5rem 0;
+}
+
+footer #main-contact-form input {
+  background: #fbf4e9;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+}
+
+footer #main-contact-form input:focus {
+  background: #ffffffa9;
+  outline: none;
+  border: none;
+}
+
+footer #main-contact-form textarea {
+  background: #fbf4e9;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  height: 8rem;
+  resize: none;
+  border: none;
+}
+
+footer #main-contact-form textarea:focus {
+  background: #ffffffa9;
+  outline: none;
+  border: none;
+}
+
+footer #main-contact-form input,
+footer #main-contact-form textarea {
+  color: #222;
+}
+
+footer #main-contact-form textarea:focus,
+footer #main-contact-form input:focus {
+  color: #222;
+}
+
+footer #main-contact-form input[type='submit'] {
+  font-weight: bold;
+  margin-bottom: 3rem;
+  margin-top: 0.5rem;
+  background: #333;
+  color: #fff;
+}
+
+footer #main-contact-form input[type='submit']:hover {
+  background: #444;
+}
+
+footer #main-contact-form input[type='submit']:focus {
+  background: #555;
 }
 
 footer #contact-links {
@@ -440,7 +519,7 @@ footer p {
     top: initial;
     position: fixed;
     width: 100%;
-    border-top: 5px #26779c solid;
+    border-top: 5px #489c70 solid;
     border-bottom: none;
   }
   #main-nav .container {
