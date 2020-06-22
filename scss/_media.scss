@@ -93,12 +93,12 @@
 		#main-banner {
 			height: 92vh;
 			#gif {
-				height: 268px;
+				position: static !important;
+				height: 250px;
 				padding-bottom: 0rem;
 				padding-top: 2rem;
-				margin: 0;
-				margin-bottom: 0.3rem;
-				// margin: 6rem 1.5rem 0 1.5rem !important;
+				margin-top: 2rem !important;
+				margin-bottom: 1rem !important;
 			}
 			#about-name {
 				font-size: 1.5rem;
@@ -106,10 +106,11 @@
 			#about-block {
 				font-size: 1rem;
 			}
+			#about-section {
+				margin-top: 2rem;
+			}
 			#scroll-down {
 				display: block;
-				padding-top: 3rem;
-				padding-bottom: 0rem;
 			}
 		}
 		#submit-banner {
@@ -192,9 +193,6 @@
 				font-size: 1.2rem;
 				padding-top: 1rem;
 			}
-			#scroll-down {
-				padding-top: 1.5rem;
-			}
 		}
 	}
 }
@@ -204,15 +202,17 @@
 	main {
 		#main-banner {
 			#gif {
-				position: relative;
-				top: -2rem;
-				margin: 0;
+				// 	position: relative;
+				// 	top: -2rem;
+				// 	margin: 0;
+				margin-top: 1rem !important;
 			}
 			#about-section {
-				position: relative;
-				top: -4rem;
-				margin: 0;
-				padding: 0 0.5rem !important;
+				// position: relative;
+				// top: -4rem;
+				// margin: 0;
+				// padding: 0 0.5rem !important;
+				margin-top: 0rem;
 			}
 			#about-name {
 				font-size: 1rem;
@@ -221,9 +221,8 @@
 				font-size: 0.7rem;
 				padding: 0 1rem;
 			}
-			#scroll-down {
-				padding-top: 1rem;
-				font-size: 0.7rem;
+			#scroll-down a {
+				margin: 0.5rem;
 			}
 		}
 		#submit-banner {

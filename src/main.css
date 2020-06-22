@@ -172,10 +172,18 @@ main #main-banner #about-block {
   font-weight: 600;
 }
 
-main #main-banner #scroll-down {
-  padding: 1rem 0;
-  font-weight: bold;
+main #scroll-down {
   display: none;
+  margin: 1.5rem;
+}
+
+main #scroll-down a {
+  padding: 0.5rem 0.8rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fbf4e9 !important;
+  background: #275a8e;
 }
 
 main .main-section {
@@ -613,11 +621,12 @@ main #projects .project-boxes .project-links a p {
     height: 92vh;
   }
   main #main-banner #gif {
-    height: 268px;
+    position: static !important;
+    height: 250px;
     padding-bottom: 0rem;
     padding-top: 2rem;
-    margin: 0;
-    margin-bottom: 0.3rem;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
   }
   main #main-banner #about-name {
     font-size: 1.5rem;
@@ -625,10 +634,11 @@ main #projects .project-boxes .project-links a p {
   main #main-banner #about-block {
     font-size: 1rem;
   }
+  main #main-banner #about-section {
+    margin-top: 2rem;
+  }
   main #main-banner #scroll-down {
     display: block;
-    padding-top: 3rem;
-    padding-bottom: 0rem;
   }
   main #submit-banner {
     height: 83vh;
@@ -700,22 +710,14 @@ main #projects .project-boxes .project-links a p {
     font-size: 1.2rem;
     padding-top: 1rem;
   }
-  main #main-banner #scroll-down {
-    padding-top: 1.5rem;
-  }
 }
 
 @media (max-width: 320px) {
   main #main-banner #gif {
-    position: relative;
-    top: -2rem;
-    margin: 0;
+    margin-top: 1rem !important;
   }
   main #main-banner #about-section {
-    position: relative;
-    top: -4rem;
-    margin: 0;
-    padding: 0 0.5rem !important;
+    margin-top: 0rem;
   }
   main #main-banner #about-name {
     font-size: 1rem;
@@ -724,9 +726,8 @@ main #projects .project-boxes .project-links a p {
     font-size: 0.7rem;
     padding: 0 1rem;
   }
-  main #main-banner #scroll-down {
-    padding-top: 1rem;
-    font-size: 0.7rem;
+  main #main-banner #scroll-down a {
+    margin: 0.5rem;
   }
   main #submit-banner {
     height: 80vh;

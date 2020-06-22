@@ -37,7 +37,7 @@ window.onscroll = function () {
 };
 
 // Smooth Scrolling
-$('#main-nav a').on('click', function (e) {
+$('a').on('click', function (e) {
 	if (this.hash !== '') {
 		e.preventDefault();
 
@@ -45,7 +45,7 @@ $('#main-nav a').on('click', function (e) {
 
 		$('html, body').animate(
 			{
-				scrollTop: $(hash).offset().top - 70,
+				scrollTop: $(hash).offset().top - 50,
 			},
 			800
 		);
