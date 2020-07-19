@@ -1,0 +1,34 @@
+{
+	"C_Cpp.updateChannel": "Insiders",
+	"debug.onTaskErrors": "showErrors",
+	"files.autoSave": "off",
+	"window.zoomLevel": 1,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.tabSize": 2,
+	"liveServer.settings.donotVerifyTags": true,
+	"workbench.colorTheme": "Community Material Theme High Contrast",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.formatOnSave": true,
+	"explorer.confirmDragAndDrop": false,
+	"workbench.colorCustomizations": {},
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"liveSassCompile.settings.autoprefix": [],
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/"
+		}
+	],
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"prettier.jsxSingleQuote": true,
+	"[json]": {},
+	"editor.wordWrap": "on",
+	"sync.gist": "",
+	"sync.autoDownload": true,
+	"sync.autoUpload": true
+}
