@@ -19,7 +19,7 @@
 		{
 			"format": "expanded",
 			"extensionName": ".css",
-			"savePath": "/"
+			"savePath": "/src/"
 		}
 	],
 	"emmet.includeLanguages": {
